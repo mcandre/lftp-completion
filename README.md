@@ -13,17 +13,17 @@ $ lftp myserver
 
 # INSTALL
 
-Download [lftp-completion.sh](https://raw.githubusercontent.com/mcandre/lftp-completion/master/lftp-completion.sh) and place into `$HOME`:
+Download [lftp-completion.sh](https://raw.githubusercontent.com/mcandre/lftp-completion/tree/master/lib/lftp-completion.sh) and place into `$HOME`:
 
 ```
-wget -O $HOME/lftp-completion.sh https://raw.githubusercontent.com/mcandre/lftp-completion/master/lftp-completion.sh
+wget -O $HOME/lftp-completion.sh https://raw.githubusercontent.com/mcandre/lftp-completion/tree/master/lib/lftp-completion.sh
 ```
 
 Then configure your `$HOME/.bash_profile` or similar shell configuration to use lftp-completion:
 
 ```
 # lftp-completion
-# See https://raw.githubusercontent.com/mcandre/lftp-completion/master/lftp-completion.sh
+# See https://raw.githubusercontent.com/mcandre/lftp-completion/tree/master/lib/lftp-completion.sh
 . $HOME/lftp-completion.sh
 ```
 

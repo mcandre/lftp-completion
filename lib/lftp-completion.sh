@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # bash support for lftp bookmark tab completion
 #
 # Setup instructions
