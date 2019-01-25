@@ -2,7 +2,7 @@
 
 # EXAMPLE
 
-```
+```console
 $ lftp ftp://myserver.com/
 > bookmark myserver
 > quit
@@ -15,13 +15,13 @@ $ lftp myserver
 
 Download [lftp-completion.sh](https://raw.githubusercontent.com/mcandre/lftp-completion/master/lib/lftp-completion.sh) and place into `$HOME`:
 
-```
+```console
 wget -O $HOME/lftp-completion.sh https://raw.githubusercontent.com/mcandre/lftp-completion/master/lib/lftp-completion.sh
 ```
 
 Then configure your `$HOME/.bash_profile` or similar shell configuration to use lftp-completion:
 
-```
+```console
 # lftp-completion
 # See https://raw.githubusercontent.com/mcandre/lftp-completion/master/lib/lftp-completion.sh
 . $HOME/lftp-completion.sh
@@ -29,7 +29,7 @@ Then configure your `$HOME/.bash_profile` or similar shell configuration to use 
 
 Then update your shell:
 
-```
+```console
 $ source $HOME/.bash_profile
 ```
 
@@ -39,12 +39,11 @@ $ source $HOME/.bash_profile
 
 ## Optional
 
-* [shfmt](https://github.com/mvdan/sh) (e.g. `go get github.com/mvdan/sh/cmd/shfmt`)
-* [bashate](https://pypi.python.org/pypi/bashate/0.5.1)
-* [shlint](https://rubygems.org/gems/shlint)
-* [checkbashisms](https://sourceforge.net/projects/checkbaskisms/)
-* [ShellCheck](https://hackage.haskell.org/package/ShellCheck)
+* [make](https://www.gnu.org/software/make/)
+* [GNU findutils](https://www.gnu.org/software/findutils/)
 * [stank](https://github.com/mcandre/stank) (e.g. `go get github.com/mcandre/stank/...`)
+* [Python](https://www.python.org) 3+ (for yamllint)
+* [Node.js](https://nodejs.org/en/) (for eclint)
 
 # CREDITS
 
