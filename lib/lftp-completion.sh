@@ -1,4 +1,5 @@
 #!/bin/bash
+IFS=$'\n\t '
 
 # bash support for lftp bookmark tab completion
 #
