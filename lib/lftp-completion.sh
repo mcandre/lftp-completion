@@ -1,5 +1,6 @@
 #!/bin/bash
-IFS=$'\n\t '
+unset IFS
+set -eEuo pipefail
 
 # bash support for lftp bookmark tab completion
 #
